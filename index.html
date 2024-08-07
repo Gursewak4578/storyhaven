@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Haven</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .message-container {
+            position: absolute;
+            top: 50px;
+            right: -0.1px;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 100px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .message-container a {
+            color: rgb(25, 0, 255);
+            text-decoration: none;
+        }
+        .message-container a:hover {
+            text-decoration: underline;
+        }
+        p1{color: black;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Story Haven</h1>
+        <p>Enjoy reading our collection of stories!</p>
+        <div class="visitor-counter">Visitors: <span id="visitorCount">0</span></div>
+        <div class="message-container">
+        <p1>Message us to get your story published. Message on: <a href="mailto:g39415207@gmail.com">g39415207@gmail.com</a></p1>
+        </div>
+    </header>
+    <main>
+        <section class="stories-list">
+            <h2>Stories</h2>
+            <ul>
+                <li><a href="stories/story1.html">एक युवा की कहानी</a></li>
+                <li><a href="stories/story2.html">बुजुर्ग व्यक्ति और तीन पुत्र</a></li>
+                <!-- Add more stories here -->
+            </ul>
+        </section>
+    </main>
+    <script src="js/visitorCounter.js"></script>
+</body>
+</html>
+
